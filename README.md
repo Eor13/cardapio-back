@@ -22,7 +22,7 @@ Primeiro você deve clonar o repositório,
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/fernandakipper/crud-java-back
+$ git clone https://github.com/Eor13/cardapio-back.git
 
 # Acesse-o
 $ cd crud-java-back
@@ -44,8 +44,8 @@ E por fim, entre no arquivo da classe `CardapioApllication` para executar o proj
 
 <img width="300px" src="./.github/executar.png"> 
 
-<h2 id="related">🫂 Integração com Frontend</h2>
+<h2 id="related"> Integração com Frontend</h2>
 
 Para realizar a integração com o Frontend, você pode clonar o projeto e rodar localmente.
 
-👉 [Link do repositório](https://github.com/Fernanda-Kipper/frontend-cardapio-digital)
+👉 [Link do repositório](https://github.com/Eor13/cardapio-front)
