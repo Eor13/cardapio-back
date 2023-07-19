@@ -21,7 +21,6 @@ HELP.md
 
 ### NetBeans ###
 /nbproject/private/
-/Dockerfile
 /nbbuild/
 /dist/
 /nbdist/
