@@ -5,7 +5,7 @@ RUN mvn clean package -DskipTests
 FROM openjdk:17-jdk-slim
 
 WORKDIR /app
-COPY --from=build /target/*.jar cardapio-back.jar
+COPY --from=build /target/cardapio-back-0.0.1-SNAPSHOT.jar cardapio-back.jar
 EXPOSE 8090
 
-CMD ["java","-jar","/cardapio-back.jar"]
+ENTRYPOINT ["java","-jar","cardapio-back.jar"]
